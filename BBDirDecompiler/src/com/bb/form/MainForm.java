@@ -147,6 +147,10 @@ public class MainForm extends JFrame {
 				if (scrollPane != null) {
 					scrollPane.setBounds(10, 55, formWidth - 45, formHeight - 125);
 				}
+				
+				if (textArea != null) {
+					textArea.setBounds(10, 55, formWidth - 45, formHeight - 125);
+				}
 			}
 			
 			@Override
